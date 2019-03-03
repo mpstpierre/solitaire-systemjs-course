@@ -20,7 +20,7 @@
     "karma-safari-launcher": "^1.0.0"
   },
   "scripts": {
-    "postinstall": "node node_modules/bower/bin/bower install --proxy http://www-proxy.lmig.com:80",
+    "postinstall": "node node_modules/bower/bin/bower install",
     "prestart": "npm install --proxy http://www-proxy.lmig.com:80 ",
     "start": "http-server -c-1 -o",
     "pretest": "npm install --proxy http://www-proxy.lmig.com:80 ",
